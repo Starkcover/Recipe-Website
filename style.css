@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+
+}
+.navcontainer{
+    
+    background-color: #FFB6C1; /* Light Pink */
+   
+    min-height: 60px;
+    padding: 5px;
+    /* margin: 10px; */
+    border-radius: 5px;
+      
+}
+#navlist{
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+#logo{
+    font-size: 3rem;
+    color: #8B4513; /* Saddle Brown */
+}
+#navitems{
+    display: flex;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.contentbox{
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 1px 1px 30px black;
+   
+}
+.image{
+    height: 20em;
+    width: 15em;
+    border-radius: 10px;
+    transition: all 0.2s linear 0s;
+
+}
+.image:hover{
+    transform: scale(1.2);
+}
+.footerbox{
+    height: 20px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.Ingredients{
+    
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
